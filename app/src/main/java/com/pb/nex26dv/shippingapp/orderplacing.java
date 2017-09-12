@@ -335,7 +335,7 @@ public class orderplacing extends AppCompatActivity {
         protected String doInBackground(Void... params) {
             HttpURLConnection urlConnection;
 
-            String url = "http://10.50.15.102:8181/services/v1/shipments/create";
+            String url = "https://sandbox2-gcs-ecommerce.test.pb.com/services/v1/shipments/create";
             UUID uid = UUID.fromString("38400000-8cf0-11bd-b23e-10b96e4ef00d");
             String randomUid = uid.randomUUID().toString();
 
