@@ -349,6 +349,7 @@ public class orderplacing extends AppCompatActivity {
                 urlConnection.setRequestProperty("Accept", "application/json");
                 urlConnection.setRequestProperty("Accept-Language", "en-GB");
                 urlConnection.setRequestProperty("X-PB-TransactionId", randomUid);
+                urlConnection.setRequestProperty("X-PB-PartnerId", "456312111");
 
                 urlConnection.setRequestProperty("Authorization", "Basic YzYzYWIzZWFhOTFlZTY3NTkxMTQ6YzJkNWFhOWYxZTJkYmNlZWE4MTY=");
                 urlConnection.setRequestMethod("POST");
